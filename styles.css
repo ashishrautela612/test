@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+}
+.mainContainer {
+  background-color: #f6fdf6;
+  /* overflow-y: hidden; */
+}
+
+.leftContainer {
+  display: inline-block;
+    position: absolute;
+    background-color: #0a5b5e;
+    /* height: 64vh; */
+    /* width: 419px; */
+    /* height: 780px; */
+    /* width: 17vw; */
+    border-radius: 0px 0px 37vh 0px;
+    width: 15%;
+    height: 67%;
+}
+.logoContainer {
+  position: relative;
+  display: inline-block;
+  top: 5vh;
+  left: 6vw;
+}
+.rightContainer {
+  display: inline-block;
+  margin-left: 5vw;
+  font-size: 3vh;
+  vertical-align: top;
+  margin-top: 9vh;
+}
+
+.logoImage {
+  height: 10vh;
+}
+
+.navBar {
+  /* color: #3a9161; */
+  /* color: #0b2417; */
+  /* color: #647970; */
+  color: #38453f;
+  position: relative;
+  padding-left: 17%;
+  display: inline-block;
+
+}
+.logoName {
+  position: relative;
+  left: 8vw;
+  top: -2vh;
+  font-size: 4vh;
+  color: #fafff9;
+  font-weight: 400;
+}
+.navItems {
+  padding: 0px 2vw;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.navItems:hover {
+  transform: scale(1);
+}
+.navBarLine {
+  border: 1px solid #3c7876;
+    display: inline-block;
+    width: 20vw;
+    margin-bottom: 2px;
+    height: 5px;
+    background-color: #3c7876;
+    margin-left: 0.8vw;
+}
+.navItems:last-child {
+  padding-right: 0;
+}
+.navBarleft {
+  display: inline-block;
+}
+
+.gardenHome {
+  display: inline-block;
+  width: 2vw;
+  font-size: 25px;
+  margin-left: 17px;
+  font-weight: 600;
+  color: #075052;
+  vertical-align: middle;
+}
+
+.imageContainer {
+  position: relative;
+  top: 8%;
+  left: 7vw;
+  height: 49vh;
+  width: 18vw;
+  background-color: #cfd9da;
+  border-radius: 22vh 22vh 0 0;
+}
+.bgImage {
+  width: 15vw;
+  height: 46vh;
+}
+
+.rightMain {
+  display: inline-block;
+    position: relative;
+    left: 27%;
+    padding-top: 4%;
+}
+
+.heading {
+  word-spacing: 3px;
+  color: #1a3b29;
+  line-height: 1;
+  /* line-height: 41px; */
+  letter-spacing: 2px;
+}
+.heading > h1 {
+  /* font-size: 65px; */
+}
+.para {
+  display: inline-block;
+    /* margin-top: 20px; */
+    word-spacing: 5px;
+    color: #38453f;
+    font-size: 13px;
+    padding-top: 2%;
+}
+.btn {
+  margin-top: 11px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #0a5b5e;
+  color: white;
+  border-radius: 2px;
+  padding: 3px 12px;
+  border: none;
+}
+
+.shopPlans {
+  position: relative;
+  width: 15vw;
+  margin-left: 55vw;
+  bottom: 26vh;
+  display: inline-block;
+}
+.shopPlans {
+  display: inline-block;
+  position: relative;
+  left: 19%;
+  text-align: center;
+  width: 14vw;
+  /* margin-left: 55vw; */
+  /* bottom: 26vh; */
+}
+
+.plans {
+  background-color: #0a5b5e;
+  color: white;
+  padding: 17px 0;
+}
+
+.planItems {
+  background-color: #e5ece5;
+  margin: 10px 0;
+  padding: 10px 0;
+  color: #1a3b29;
+  font-weight: 600;
+}
+
+.footer {
+  display: inline-block;
+  position: relative;
+  bottom: 21vh;
+  height: 15vh;
+  /* padding: 12px 0; */
+  width: 68%;
+  margin: auto;
+  left: 7vw;
+  /* background-color: #c6cdc6; */
+  background-color: #c3cec6;
+}
+
+.discount {
+  display: inline-block;
+  /* width: 20%; */
+  padding: 14px 0px 14px 28px;
+  word-spacing: 3px;
+}
+
+.dicountHeading {
+  display: inline-block;
+    font-size: 20px;
+    color: #1a3b29;
+    font-weight: 600;
+}
+
+.description {
+  font-size: 10px;
+  color: #38453f;
+  text-align: left;
+  width: 11vw;
+}
+
+.footerMid{
+    display: inline-block;
+}
+
+.footer-images {
+  position: absolute;
+  bottom: 2vh;
+}
+.footer-images > img {
+  width: 10vw;
+  height: 29vh;
+}
+
+#footerImage1 {
+  /* left: 3vw; */
+  left: 24.3vw;
+}
+#footerImage2 {
+  left: 38vw;
+}
+#footerImage3 {
+  left: 52vw;
+}
+.contact {
+  position: relative;
+  left: 69vw;
+  bottom: 100px;
+  width: 16vw;
+  /* height: 13vh; */
+}
+
+.contact > p {
+  /* font-size: 35px; */
+  margin-bottom: 8px;
+  text-align: end;
+  letter-spacing: 2px;
+  word-spacing: 11px;
+  /* color: #647970; */
+  color: #38453f;
+
+  font-weight: 600;
+}
+.contact:nth-child(even) {
+  word-spacing: 8px;
+}
+
+.footerImage {
+  position: absolute;
+  bottom: -11vh;
+  left: 73.4vw;
+}
+.footerImage > img {
+  height: 140px;
+  width: 500px;
+}
